@@ -9,5 +9,5 @@
 * [Week5](week5.md)
 * [Week6](week6.md)
 * [Week7](week7.md)
-* Week8
+* [Week8](week8.md)
 
