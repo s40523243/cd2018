@@ -9,5 +9,10 @@
 * [Week5](week5.md)
 * [Week6](week6.md)
 * [Week7](week7.md)
+  * [Q1](week7/q1.md)
+  * [Q2](week7/q2.md)
+  * [Q3](week7/q3.md)
+  * [Q4](week7/q4.md)
+  * [Q5](week7/q5.md)
 * [Week8](week8.md)
 
