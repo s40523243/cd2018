@@ -15,4 +15,5 @@
   * [Q4](week7/q4.md)
   * [Q5](week7/q5.md)
 * [Week8](week8.md)
+* [Week2](week3.md)
 
