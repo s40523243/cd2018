@@ -17,5 +17,5 @@
   * [Q4](week7/q4.md)
   * [Q5](week7/q5.md)
 * [Week8](week8.md)
-* 自評成績
+* [自評成績](zi-ping-cheng-ji.md)
 
