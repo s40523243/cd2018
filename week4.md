@@ -6,7 +6,7 @@
 
 Python 是目前機器學習與人工智慧應用最熱門的程式語言之一,[Why](https://www.quora.com/Why-is-Python-considered-a-good-language-for-AI-and-Machine-Learning)?
 
-至於 Lua 則是 V-rep 內建的 scripting 程式語言, 充分了解 Lua 的應用將有助於機械設計工程師在 V-rep 搭建機電資整合系統模型.
+至於 Lua 則是 V-rep內建的 scripting 程式語言, 充分了解 Lua 的應用將有助於機械設計工程師在 V-rep 搭建機電資整合系統模型.
 
 ### 執行程式[Lua](http://mde.tw/vecp2018/lua/SchoolProject/) \(加入字串即可\)
 
