@@ -1,17 +1,22 @@
 # W10 兩段式六連桿提球機構設計與模擬
 
-* 下載 Pyslvs:
+* 下載 Pyslvs:  
   [http://wcmg3.kmol.info/downloads/pyslvs-18.4.0.mscv1900-amd64\_cdw10.7z](http://wcmg3.kmol.info/downloads/pyslvs-18.4.0.mscv1900-amd64_cdw10.7z) \(需要用Proxy下載\)
 
 * 請各組在 W11 上課之前完成 Pyslvs 套件中之 ball lifter 機構的 Solvespace 零件組立與 V-rep 提球模擬
+
 * 各組請在各組倉儲中繳交 cd\_w11\_ag1.slvs 零件組立檔、cd\_w11\_ag1.pyslvs 機構模擬檔與 cd\_w11\_ag1.ttt 提球模擬檔
 * 各組在 W11 上課前, 必須拍攝利用此一雙階段提球機構, 將球送到各組目前既有的軌道模組循環運行至少兩次的模擬影片
 
 以甲班第一組為例, W11 上課前必須繳交 cd\_w11\_ag1.slvs, cd\_w11\_ag1.pyslvs, cd\_w11\_ag1.ttt 與 Youtube 上的模擬影片.
 
+### **本組連桿提求機構基本構想**![](/assets/W10.jpg)本組連桿提球機構基本構想pyslvs:[https://github.com/s40523243/cd2018/blob/master/w10%20%E5%8D%94%E5%90%8C.pyslvs?raw=true](https://github.com/s40523243/cd2018/blob/master/w10 協同.pyslvs?raw=true)
 
+### 
 
-### **本組連桿提求機構基本構想**![](/assets/W10.jpg)本組連桿提球機構基本構想pyslvs:[https://github.com/s40523243/cd2018/blob/master/w10%20%E5%8D%94%E5%90%8C.pyslvs?raw=true](https://github.com/s40523243/cd2018/blob/master/w10%20%E5%8D%94%E5%90%8C.pyslvs?raw=true)
+## 暫時繪出本組機構之組組合圖![](/assets/333.png)
+
+![](/assets/999 %282%29.png)
 
 
 
