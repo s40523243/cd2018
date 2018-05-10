@@ -11,13 +11,27 @@
 
 以甲班第一組為例, W11 上課前必須繳交 cd\_w11\_ag1.slvs, cd\_w11\_ag1.pyslvs, cd\_w11\_ag1.ttt 與 Youtube 上的模擬影片.
 
-### **本組連桿提求機構基本構想**![](/assets/W10.jpg)本組連桿提球機構基本構想pyslvs:[https://github.com/s40523243/cd2018/blob/master/w10%20%E5%8D%94%E5%90%8C.pyslvs?raw=true](https://github.com/s40523243/cd2018/blob/master/w10 協同.pyslvs?raw=true)
+### **本組連桿提求機構基本構想**
+
+### **pyslvs**![](/assets/W10.jpg)
+
+#### **cd\_w11\_ag9.pyslvs: **[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.pyslvs?raw=true**](https://github.com/s40523243/cd2018/blob/master/cd_w11_ag9.pyslvs?raw=true "cd\_w11\_ag9.pyslvs")
+
+## solvespace![](/assets/2018-05-10.png)
+
+#### **cd\_w11\_ag9.slvs:**[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.slvs**](https://github.com/s40523243/cd2018/blob/master/cd_w11_ag9.slvs)
+
+#### 
+
+#### **cd\_w11\_ag9.ttt:**[https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.ttt?raw=true](https://github.com/s40523243/cd2018/blob/master/cd_w11_ag9.ttt?raw=true)
+
+#### 
 
 ### 
 
-## 暫時繪出本組機構之組組合圖![](/assets/333.png)
+### 
 
-![](/assets/999 %282%29.png)
+## 
 
 
 
