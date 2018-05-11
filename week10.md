@@ -14,18 +14,18 @@
 
 ### **pyslvs**![](/assets/W10.jpg)
 
-#### **cd\_w11\_ag9.pyslvs: **[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.pyslvs?raw=true**](https://github.com/s40523243/cd2018/blob/master/cd_w11_ag9.pyslvs?raw=true "cd\_w11\_ag9.pyslvs")
+#### **cd\_w11\_ag9.pyslvs: **[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.pyslvs?raw=true**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.pyslvs)
 
 ## solvespace![](/assets/2018-05-10.png)
 
-#### **cd\_w11\_ag9.slvs:**[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.slvs**](https://github.com/s40523243/cd2018/blob/master/cd_w11_ag9.slvs)
+#### **cd\_w11\_ag9.slvs:**[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.slvs**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.slvs)
 
 
 # <iframe width="560" height="315" src="https://www.youtube.com/embed/sd3tMnSQOSg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 #### **cd\_w11\_ag9.ttt:**
-[**cd_w11 ag9**]{https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9(%E9%80%A3%E6%A1%BF%E6%90%AD%E9%85%8D%E8%BB%8C%E9%81%93).ttt?raw=true}
+[**cd_w11 ag9**]{*https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9(%E9%80%A3%E6%A1%BF%E6%90%AD%E9%85%8D%E8%BB%8C%E9%81%93).ttt?raw=true*}
 
 #### 
 
