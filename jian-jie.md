@@ -12,7 +12,7 @@
 
 # [電腦輔助設計實習課程導引](https://github.com/mdecourse/cd2018/issues)
 
-# [第九組協同倉儲](https://github.com/s40523236/cd2018#協同產品設計實習-cd9-國立虎尾科技大學-機械設計工程系)
+# [第九組協同倉儲](https://github.com/s40523243/cd2018)
 
 
 
