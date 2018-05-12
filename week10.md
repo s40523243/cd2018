@@ -17,6 +17,9 @@
 #### **cd\_w11\_ag9.ttt:**
 [**cd_w11 ag9**]{**https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9(%E9%80%A3%E6%A1%BF%E6%90%AD%E9%85%8D%E8%BB%8C%E9%81%93).ttt?raw=true**}
 
+### **連桿組合VREP教學**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IdsXV41qHEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 ### **本組連桿提求機構基本構想**
 
