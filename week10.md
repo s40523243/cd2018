@@ -9,13 +9,20 @@
 
 * 各組在 W11 上課前, 必須拍攝利用此一雙階段提球機構, 將球送到各組目前既有的軌道模組循環運行至少兩次的模擬影片
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ### **本組cd w11_ag9軌道+連桿**
 
 # <iframe width="560" height="315" src="https://www.youtube.com/embed/sd3tMnSQOSg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-#### **cd\_w11\_ag9.ttt:**
+
+### **cd\_w11\_ag9.ttt:**
 [**cd_w11 ag9**]{**https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9(%E9%80%A3%E6%A1%BF%E6%90%AD%E9%85%8D%E8%BB%8C%E9%81%93).ttt?raw=true**}
+
+### **繪製過程**
+####我們採用的繪圖軟體是Inventor然後靠pyslvs是做出連桿機構所行走的位置,大概繪製好之後就轉到先儲存在電腦上,再來就是導入solvespace裡(在pyslvs裡按File -> Export -> 有一個 2D sketch 之後就能用solvespace開啟所要的連桿機構)然後開啟完就會給你連桿的尺寸及三角塊的尺寸,之後就可以開始在Inventor上開始畫了,畫完之後組裝起來匯出,儲存成stl檔 然後設定一些軸與軸的連結那些,至於圖上的提球讓他周旋兩次是之後才畫出來的一步一步地想才想得出來,必須得多花一點時間在上面,至於點跟點的配合都需要微精密,這樣求才不會亂跑
+
+****
 
 ### **連桿組合VREP教學**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IdsXV41qHEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
