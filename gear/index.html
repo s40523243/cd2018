@@ -1,1 +1,149 @@
-spur gear
+< html >
+< head >
+</ head >
+< body >
+< script >
+窗口。onload = function（）{
+//設定data / py為共用程式路徑
+brython（{debug ：1，pythonpath ： [ ' ./ ' ]}）;
+}
+< / script >
+<！ -以下實際利用Brython繪圖- >
+
+< canvas  id = “ onegear ”  width = “ 800 ”  height = “ 600 ” > </ canvas >
+
+< script  type = “ text / python3 ” >
+從瀏覽器導入文檔作為文檔
+導入數學
+＃deg為角度轉為徑度的轉換因子
+deg = math.pi / 180。
+＃定義Spur類別
+class Spur（對象）：
+    def __init __（self，ctx）：
+        self.ctx = ctx
+    def create_line（self，x1，y1，x2，y2，width = 3，fill =“red”）：
+        self.ctx.beginPath（）
+        self.ctx.lineWidth = width
+        self.ctx.moveTo（x1，y1）
+        self.ctx.lineTo（x2，y2）
+        self.ctx.strokeStyle =填充
+        self.ctx.stroke（）
+    ＃
+    ＃定義一個繪正齒輪的繪圖函式
+    ＃midx為齒輪圓心x座標
+    ＃midy為齒輪圓心y座標
+    ＃rp為節圓半徑，n為齒數
+    ＃pa為壓力角（度）
+    ＃rot為旋轉角（deg）
+    ＃已經針對n大於等於52齒時的繪圖錯誤修正，因為base circle與齒根圓大小必須進行判斷
+    def Gear（self，midx，midy，rp，n = 20，pa = 20，color =“black”）：
+        ＃齒輪漸開線分成15線段繪製
+        imax = 15
+        ＃在輸入的畫布上繪製直線，由圓心到節圓y軸頂點畫一直線
+        self.create_line（midx，midy，midx，midy-rp）
+        ＃畫出rp圓，畫圓函式尚未定義
+        #create_oval（midx-rp，midy-rp，midx + rp，midy + rp，width = 2）
+        ＃a為模數（代表公制中齒的大小），模數為節圓直徑（稱為節徑）除以齒數
+        ＃模數也就是齒冠大小
+        A = 2 * RP / N
+        ＃d為齒根大小，為模數的1.157或1.25倍，這裡採1.25倍
+        d = 2.5 * RP / n的
+        ＃ra為齒輪的外圍半徑
+        RA = RP +一
+        ＃畫出ra圓，畫圓函式尚未定義
+        #create_oval（midx-ra，midy-ra，midx + ra，midy + ra，width = 1）
+        ＃rb則為齒輪的基圓半徑
+        ＃基圓為漸開線長齒之基準圓
+        RB RP = * math.cos（PA *度）
+        ＃畫出rb圓（基圓），畫圓函式尚未定義
+        #create_oval（midx-rb，midy-rb，midx + rb，midy + rb，width = 1）
+        ＃rd為齒根圓半徑
+        RD = RP-d
+        ＃當rd大於rb時，漸開線並非畫至rb，而是rd
+        ＃畫出rd圓（齒根圓），畫圓函式尚未定義
+        #create_oval（midx-rd，midy-rd，midx + rd，midy + rd，width = 1）
+        ＃dr則為基圓到齒頂圓半徑分成imax段後的每段半徑增量大小
+        ＃將圓弧分成imax段來繪製漸開線
+        ＃當rd大於rb時，漸開線並非畫至rb，而是rd
+        如果rd> rb：
+            dr =（ra-rd）/ imax
+        其他：
+            DR =（RA-RB）/ IMAX
+        ＃tan（pa * deg）-pa * deg為漸開線函數
+        西格瑪= math.pi /（2 * N）+ math.tan（PA *度）-PA *度
+        對於範圍（n）中的j：
+            ANG = -2 *Ĵ* math.pi / N +西格瑪
+            ANG2 = 2 * *Ĵmath.pi / N +西格瑪
+            LXD = MIDX + RD * math.sin（ang2-2。* math.pi / n）的
+            LYD = MIDY-RD * math.cos（ang2-2。* math.pi / n）的
+            我在範圍內（imax + 1）：
+                ＃當rd大於rb時，漸開線並非畫至rb，而是rd
+                如果rd> rb：
+                    R = RD + I *博士
+                其他：
+                    R = RB + I *博士
+                THETA = math.sqrt（（R * R）/（RB * RB）-1）。
+                阿爾法=θ-math.atan（THETA）
+                XPT = R * math.sin（α-ANG）
+                YPT = R * math.cos（α-ANG）
+                XD = RD * math.sin（-Ang）
+                碼= RD * math.cos（-Ang）
+                ＃i = 0時，繪線起點由齒根圓上的點，作為起點
+                如果（I == 0）：
+                    last_x = midx + xd
+                    last_y = midy-yd
+                ＃由左側齒根圓作為起點，除第一點（xd，yd）齒根圓上的起點外，其餘的（xpt，ypt）則為漸開線上的分段點
+                self.create_line（（MIDX + XPT），（MIDY-YPT），（last_x），（last_y），填充=顏色）
+                ＃最後一點，則為齒頂圓
+                如果（I == IMAX）：
+                    LFX = MIDX + XPT
+                    LFY = MIDY-YPT
+                last_x = midx + xpt
+                last_y = midy-ypt
+            ＃從最後一點到最近點的距離
+            ＃末尾點
+            ＃lxd為齒根圓上的左側x座標，lyd則為y座標
+            ＃下列為齒根圓上用來近似圓弧的直線
+            self.create_line（（LXD），（LYD），（MIDX + XD），（MIDY-碼），填充=顏色）
+            我在範圍內（imax + 1）：
+                ＃當rd大於rb時，漸開線並非畫至rb，而是rd
+                如果rd> rb：
+                    R = RD + I *博士
+                其他：
+                    R = RB + I *博士
+                THETA = math.sqrt（（R * R）/（RB * RB）-1）。
+                阿爾法=θ-math.atan（THETA）
+                XPT = R * math.sin（ANG2-α）
+                YPT = R * math.cos（ANG2-α）
+                XD = RD * math.sin（ANG2）
+                碼= RD * math.cos（ANG2）
+                ＃i = 0時，繪線起點由齒根圓上的點，作為起點
+                如果（I == 0）：
+                    last_x = midx + xd
+                    last_y = midy-yd
+                ＃由右側齒根圓作為起點，除第一點（xd，yd）齒根圓上的起點外，其餘的（xpt，ypt）則為漸開線上的分段點
+                self.create_line（（MIDX + XPT），（MIDY-YPT），（last_x），（last_y），填充=顏色）
+                ＃最後一點，則為齒頂圓
+                如果（I == IMAX）：
+                    RFX = MIDX + XPT
+                    RFY = MIDY-YPT
+                last_x = midx + xpt
+                last_y = midy-ypt
+            ＃lfx為齒頂圓上的左側x座標，lfy則為y座標
+            ＃下列為齒頂圓上用來近似圓弧的直線
+            self.create_line（LFX，LFY，RFX，RFY，填充=顏色）
+canvas = doc ['onegear']
+ctx = canvas.getContext（“2d”）
+x =（canvas.width）/ 2
+y =（canvas.height）/ 2
+r = 0.8 *（canvas.height / 2）
+＃齒數
+n = 53
+＃壓力角
+pa = 20
+Spur（ctx）.Gear（x，y，r，n，pa，“blue”）
+</ script >
+< script  src = “ Brython-3.5.1 / brython.js ” > </ script >
+< script  src = “ Brython-3.5.1 / brython_stdlib.js ” > </ script >
+</ body >
+</ html >
