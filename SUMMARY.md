@@ -18,7 +18,7 @@
   * [期中報告Q5](week7/q5.md)
 * [Week8](week8.md)
 * [Week9自評成績](zi-ping-cheng-ji.md)
-* [Week10](week10.md)
+* [Week10二段式](week10.md)
 * [Week11](week11.md)
 * [Week14](week14.md)
 * [Week15](week15.md)
