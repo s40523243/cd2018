@@ -10,13 +10,13 @@
 * 各組在 W11 上課前, 必須拍攝利用此一雙階段提球機構, 將球送到各組目前既有的軌道模組循環運行至少兩次的模擬影片
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### **本組cd w11_ag9軌道+連桿**
+### **本組cd w11_bg9軌道+連桿**
 
 # <iframe width="560" height="315" src="https://www.youtube.com/embed/sd3tMnSQOSg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
-### **cd\_w11\_ag9.ttt:**
+### **cd\_w11\_bg9.ttt:**
 [**cd_w11 ag9**]{**https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9(%E9%80%A3%E6%A1%BF%E6%90%AD%E9%85%8D%E8%BB%8C%E9%81%93).ttt?raw=true**}
 
 ### **繪製過程**
@@ -34,11 +34,11 @@
 
 ### **pyslvs**![](/assets/W10.jpg)
 
-#### **cd\_w11\_ag9.pyslvs: **[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.pyslvs?raw=true**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.pyslvs?raw=true)
+#### **cd\_w11\_bg9.pyslvs: **[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.pyslvs?raw=true**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.pyslvs?raw=true)
 
 ## solvespace![](/assets/2018-05-10.png)
 
-#### **cd\_w11\_ag9.slvs:**[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.slvs**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.slvs)
+#### **cd\_w11\_bg9.slvs:**[**https://github.com/s40523243/cd2018/blob/master/cd\_w11\_ag9.slvs**](https://github.com/s40523243/cd2018/blob/master/W10/cd_w11_ag9.slvs)
 
 
 #### 
