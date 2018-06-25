@@ -22,11 +22,16 @@
 
 ## [繪製組合轉動正齒輪](https://s40523236.github.io/newcd2018/blog/hui-zhi-zu-he-zhuan-dong-zheng-chi-lun.html)
 
-## 
+## 40523243 賴瑋傑\(繪製齒輪\)
 
-### 
+## [43齒 漸開線正齒輪輪廓外型](https://s40523243.github.io/cd2018-1/blog/hui-zhi-jing-tai-zheng-chi-lun.html)
 
-### 
+### [50.25齒 兩齒嚙合靜態繪圖](https://s40523243.github.io/cd2018-1/blog/hui-zhi-jing-tai-zu-he-zheng-chi-lun.html)
+
+### [50.25齒 兩齒嚙合動態繪圖](https://s40523243.github.io/cd2018-1/blog/hui-zhi-zu-he-zhuan-dong-zheng-chi-lun.html)
+
+
+
 
 
 
