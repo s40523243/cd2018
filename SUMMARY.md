@@ -17,7 +17,7 @@
   * [期中報告Q4](week7/q4.md)
   * [期中報告Q5](week7/q5.md)
 * [Week8](week8.md)
-* [Week9自評成績](zi-ping-cheng-ji.md)
+* [期中自評自評成績](zi-ping-cheng-ji.md)
 * [Week10兩段式](week10.md)
 * [Week11三連桿](week11.md)
 * [week12齒輪](week12.md)
