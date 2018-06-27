@@ -23,5 +23,6 @@
 * [week12齒輪](week12.md)
 * [Week14](week14.md)
 * [Week15](week15.md)
+* [個人期末報告影片](ge-ren-qi-mo-bao-gao-ying-pian.md)
 * [期末自評](qi-mo-zi-ping.md)
 
